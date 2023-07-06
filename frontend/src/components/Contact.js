@@ -13,7 +13,7 @@ const Contact = () => {
 
   useEffect(() => {
     // Fetch the API key from the backend
-    axios.get('http://localhost:5000/api/portfolio')
+    axios.get('https://prakashback.onrender.com/api/portfolio')
       .then(response => {
         setserviceid(response.data.serviceid);
         settemplateid(response.data.templateid);
