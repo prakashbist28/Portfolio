@@ -1,15 +1,15 @@
 const express = require('express');
 
 require('dotenv').config(); 
-
+const cors = require('cors');
 const app =express();
 
-app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', 'https://prakashbist.onrender.com'); // Replace with the origin of your React app
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-    next();
-  });
+
+app.use(cors({
+  origin: 'https://prakashbist.onrender.com', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 // Define a sample API route
 app.get('/api/portfolio', (req, res) => {
     const serviceid =  process.env.SERVICE_ID;
