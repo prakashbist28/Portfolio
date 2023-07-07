@@ -13,7 +13,7 @@ const Contact = () => {
 
   useEffect(() => {
     // Fetch the API key from the backend
-    axios.get('https://prakashback.onrender.com/api/v1.0/email/send-form')
+    axios.get('https://prakashback.onrender.com/api/api-key')
       .then(response => {
         setserviceid(response.data.serviceid);
         settemplateid(response.data.templateid);

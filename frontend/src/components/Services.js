@@ -32,49 +32,49 @@ const Services = () => {
       className="pt-16 flex flex-wrap justify-center items-center mx-auto">
         <div className="pt-8 sm:w-1/4 ">
         <a href="https://react.dev/" alt="reacttut" target='_blank'>
-          <img className="mx-auto pl-5  h-auto w-[100px] lg:w-[150px] hover:scale-110 " src={reactimg} alt="react" />
+          <img className="mx-auto pl-5  h-auto w-[70px] lg:w-[150px] hover:scale-110 " src={reactimg} alt="react" />
         </a>
         </div>
 
         <div className="pt-8 sm:w-1/4 ">
         <a href="https://nodejs.org/en" alt="node" target='_blank'>
-          <img className="mx-auto pl-5  h-auto w-[100px] lg:w-[150px] hover:scale-110 " src={nodeimg} alt="node" />
+          <img className="mx-auto pl-5  h-auto w-[70px] lg:w-[150px] hover:scale-110 " src={nodeimg} alt="node" />
         </a>
         </div>
 
         <div className="pt-8 sm:w-1/4 ">
         <a href="https://expressjs.com/" alt="exp" target='_blank'>
-          <img className="mx-auto pl-5  h-auto w-[100px] lg:w-[150px] hover:scale-110 " src={expressimg} alt="express" />
+          <img className="mx-auto pl-5  h-auto w-[70px] lg:w-[150px] hover:scale-110 " src={expressimg} alt="express" />
         </a>
         </div>
 
         <div className="pt-8 sm:w-1/4 ">
         <a href="https://www.mongodb.com/" alt="yt" target='_blank'>
-          <img className="mx-auto pl-5  h-auto w-[100px] lg:w-[150px] hover:scale-110 " src={mongoimg} alt="mongo" />
+          <img className="mx-auto pl-5  h-auto w-[70px] lg:w-[150px] hover:scale-110 " src={mongoimg} alt="mongo" />
         </a>
         </div>
 
         <div className="pt-8 sm:w-1/4 ">
         <a href="https://www.tailwindcss.cn/" alt="tail" target='_blank'>
-          <img className="mx-auto pl-5  h-auto w-[100px] lg:w-[150px] hover:scale-110 " src={tailwindimg} alt="tailwind" />
+          <img className="mx-auto pl-5  h-auto w-[70px] lg:w-[150px] hover:scale-110 " src={tailwindimg} alt="tailwind" />
         </a>
         </div>
 
         <div className="pt-8 sm:w-1/4 ">
         <a href="https://html.com/" alt="html" target='_blank'>
-          <img className="mx-auto pl-5  h-auto w-[100px] lg:w-[150px] hover:scale-110 " src={htmlimg} alt="html" />
+          <img className="mx-auto pl-5  h-auto w-[70px] lg:w-[150px] hover:scale-110 " src={htmlimg} alt="html" />
         </a>
         </div>
 
         <div className="pt-8 sm:w-1/4 ">
         <a href="https://www.cprogramming.com/" alt="c" target='_blank'>
-          <img className="mx-auto pl-5  h-auto w-[90px] lg:w-[150px] hover:scale-110 " src={cimg} alt="c" />
+          <img className="mx-auto pl-5  h-auto w-[70px] lg:w-[150px] hover:scale-110 " src={cimg} alt="c" />
         </a>
         </div>
 
         <div className="pt-8 sm:w-1/4 ">
         <a href="https://cplusplus.com/doc/tutorial/" alt="cpp" target='_blank'>
-          <img className="mx-auto pl-5  h-auto w-[100px] lg:w-[150px] hover:scale-110 " src={cppimg} alt="cpp" />
+          <img className="mx-auto pl-5  h-auto w-[70px] lg:w-[150px] hover:scale-110 " src={cppimg} alt="cpp" />
         </a>
         </div>
 

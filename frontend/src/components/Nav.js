@@ -15,8 +15,8 @@ const Nav = () => {
         smooth={true} 
         spy={true} 
         offset={-200}
-        className='cursor-pointer w-[30px] h-[30px]  flex items-center'>
-         <BiHomeAlt className='h-5  pl-2'/>
+        className='cursor-pointer w-[35px] h-[35px] justify-center flex items-center'>
+         <BiHomeAlt className='h-5  '/>
       </Link>
 
       <Link
@@ -25,8 +25,8 @@ const Nav = () => {
         smooth={true}
         spy={true}
         offset={-150}
-        className='cursor-pointer w-[30px] h-[30px]  flex items-center'>
-         <BiUser className='h-5  pl-2' />
+        className='cursor-pointer w-[35px] h-[35px] justify-center  flex items-center'>
+         <BiUser className='h-5 ' />
       </Link>
 
       <Link 
@@ -35,8 +35,8 @@ const Nav = () => {
         smooth={true} 
         spy={true}
         offset={-200} 
-        className='cursor-pointer w-[30px] h-[30px]  flex items-center'>
-         <BsClipboardData className='h-5  pl-2'/>
+        className='cursor-pointer w-[40px] h-[40px] justify-center flex items-center'>
+         <BsClipboardData className='h-5 '/>
       </Link>
 
       <Link 
@@ -45,8 +45,8 @@ const Nav = () => {
         smooth={true} 
         spy={true}
         offset={-150} 
-        className='cursor-pointer w-[30px] h-[30px]  flex items-center'>
-         <BsBriefcase className='h-5  pl-2' />
+        className='cursor-pointer w-[35px] h-[35px] justify-center flex items-center'>
+         <BsBriefcase className='h-5  ' />
       </Link>
 
       <Link 
@@ -55,8 +55,8 @@ const Nav = () => {
         smooth={true} 
         spy={true}
         offset={-200} 
-        className='cursor-pointer w-[30px] h-[30px]  flex items-center'>
-         <BsChatSquareText className='h-5  pl-2'/>
+        className='cursor-pointer w-[35px] h-[35px] justify-center flex items-center'>
+         <BsChatSquareText className='h-5  '/>
       </Link>
       
       
