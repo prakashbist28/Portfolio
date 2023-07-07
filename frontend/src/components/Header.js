@@ -16,7 +16,7 @@ const Header = () => {
           <img className='h-[80px]' src={Logo} alt='logo' />
         </a>
 
-        <button className='btn btn-sm h-20 text-center text-[15px] font-primary ' onClick={handleClick}> Boring Part</button>
+        <button className='btn btn-sm p-5 text-center text-[10px]  lg:text-[15px] font-primary ' onClick={handleClick}> Boring Part</button>
       </div>
     </div> 
   </header>

@@ -11,7 +11,7 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 // Define a sample API route
-app.get('/api/v1.0/email/send-form', (req, res) => {
+app.get('/api/api-key', (req, res) => {
     const serviceid =  process.env.SERVICE_ID;
     const templateid =  process.env.TEMPLATE_ID;
     const userid =  process.env.USER_ID;

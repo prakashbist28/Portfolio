@@ -24,7 +24,7 @@ const Banner = () => {
             initial="hidden" 
             whileInView={'show'} 
             viewport={{once:false, amount:0.7}} 
-            className="text-[55px] font-bold leading-[0.8] lg:text-[110px]">
+            className="text-[40px] font-bold leading-[0.8] lg:text-[110px]">
               PRAKASH<span className="mx-2">BIST</span>
             </motion.h1>
 
@@ -33,7 +33,7 @@ const Banner = () => {
             initial="hidden" 
             whileInView={'show'} 
             viewport={{once:false, amount:0.7}}  
-            className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] ">
+            className="mb-6 text-[22px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] ">
               <span className="mx-1">I am a </span>
               <TypeAnimation
                 sequence={[
@@ -56,7 +56,7 @@ const Banner = () => {
             initial="hidden" 
             whileInView={'show'} 
             viewport={{once:false, amount:0.7}}
-            className="mb-8 max-w-lg mx-auto lg:mx-0 text-[20px] ">Hello there, Thank you for visiting my website <br/>
+            className="mb-8 max-w-lg mx-auto lg:mx-0 text-[14px] lg:text-[20px] ">Hello there, Thank you for visiting my website <br/>
             To know more about me you can scroll down</motion.p>
 
             <motion.div

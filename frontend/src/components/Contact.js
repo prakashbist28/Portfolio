@@ -20,7 +20,7 @@ const Contact = () => {
         setuserid(response.data.userid);
       })
       .catch(error => {
-        console.error(error);
+        console.log(error);
       });
   }, []);
 

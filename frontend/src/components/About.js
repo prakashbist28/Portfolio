@@ -3,6 +3,7 @@ import CountUp from 'react-countup';
 import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
+import aboutimg from '../assets/about.png'
 
 
 const About = () => {
@@ -18,14 +19,15 @@ const About = () => {
   };
 
   return (
-    <section className='section mb-[100px]' id='about' ref={ref}>
+    <section className='section mb-[100px] ' id='about' ref={ref}>
       <div className='container mx-auto'>
         <div className=' flex gap-y-11 lg:flex-row flex-col lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
           <motion.div 
            variants={fadeIn('right',0.5)} 
            initial="hidden" 
            whileInView={'show'}  
-           className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'>
+           className='flex-1   h-[640px] lg:h-[640px] mix-blend-lighten bg-top'>
+            <img src={aboutimg} alt='alt'/>
           </motion.div> 
           
           <motion.div 
@@ -34,8 +36,8 @@ const About = () => {
           whileInView={'show'}
           className='flex-1'>
             <h2 className='h2 font-secondary text-[50px] font-bold text-pink-400'>About me</h2>
-            <h3 className='h3 mb-7 font-secondary leading-tight'> My name is Prakash Bist, I am currently pursuing BE in computer science from Panjab University. </h3>
-            <p className='mb-6 text-[20px] '>
+            <h3 className='h3 mb-7 font-secondary leading-tight text-[17px] lg:text-[22px]'> My name is Prakash Bist, I am currently pursuing BE in computer science from Panjab University. </h3>
+            <p className='mb-6 text-[15px] lg:text-[20px] '>
             My career objective is to use my skills and
 knowledge to the create innovative and user-friendly web applications. I am passionate about crafting engaging user experiences and staying up to
 date with the latest web technologies and trends. My goal is to work in a collaborative environment where I can contribute my expertise in front-end

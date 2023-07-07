@@ -15,10 +15,13 @@ const Main = () => {
       <Banner />
       <Nav />
       <About />
+      <div className='h-[250px]'></div>
       <Services />
+      <div className='h-[100px]'></div>
       <Work />
-      <Contact />
       <div className='h-[50px]'></div>
+      <Contact />
+      <div className='h-[150px]'></div>
     </div>
   );
 };
