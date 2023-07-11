@@ -6,6 +6,7 @@ import {fadeIn} from '../variants'
 import aboutimg from '../assets/about.png'
 
 
+
 const About = () => {
 
 
@@ -60,8 +61,8 @@ and back-end development to build scalable web solutions.
             <div id="contact">
             <button className="btn btn-lg" onClick={scrollToSection}>Contact Me</button>
             </div>
-            <a href="#" className="text-gradient btn-link">
-              {" "}My Portfolio{" "}
+            <a href="https://drive.google.com/file/d/19v61vHyxMQd3iSMyuZrhh1wTqjZB5kFq/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
+              {" "}My Resume{" "}
             </a>
             </div>
           </motion.div>

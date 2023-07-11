@@ -12,7 +12,6 @@ const Contact = () => {
   const [userid,setuserid]=useState('');
 
   useEffect(() => {
-    // Fetch the API key from the backend
     axios.get('https://prakashback.onrender.com/api/api-key')
       .then(response => {
         setserviceid(response.data.serviceid);

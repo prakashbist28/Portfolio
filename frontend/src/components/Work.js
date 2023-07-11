@@ -39,16 +39,16 @@ const Work = () => {
             <div className='group-hover:bg-purple-900/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <img className='group-hover:scale-125 transition-all duration-300' src={Img1} alt='img' />
               <div className='absolute -bottom-full left-12 lg:group-hover:bottom-48 group-hover:bottom-36 transition-all duration-300 z-50'>
-                <span className='text-[10px] md:text-[15px] lg:text-[20px] text-white font-tertiary font-bold'>WEB DEVELOPMENT</span>
+                <span className='text-[10px] md:text-[15px] lg:text-[20px] text-white font-tertiary font-bold'>Tasker</span>
               </div>
               <div className='absolute -bottom-full left-12 lg:group-hover:bottom-32 group-hover:bottom-20 transition-all duration-500 z-50'>
-                <span className='text-[8px] md:text-[12px] lg:text-[16px] text-white font-semibold'>Project title 4</span>
+                <span className='text-[8px] md:text-[12px] lg:text-[16px] text-white font-semibold'>Tasker is a mern stack application where one can add, update, delete and mark tasks as complete.</span>
               </div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-4 lg:group-hover:bottom-12 transition-all duration-700 z-50'>
-              <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://github.com/prakashbist28' target='_blank'> Github </a>
+              <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://github.com/prakashbist28/tasker' target='_blank'> Github </a>
               </div>
               <div className='absolute -bottom-full left-40 group-hover:bottom-4 lg:group-hover:bottom-12 transition-all duration-700 z-50'>
-              <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://github.com/prakashbist28' target='_blank'> Website </a>
+              <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://tasker-fmr5.onrender.com/' target='_blank'> Website </a>
               </div>
             </div>
           </motion.div>
@@ -72,7 +72,7 @@ const Work = () => {
               <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://github.com/prakashbist28/Chatter' target='_blank'> Github </a>
               </div>
               <div className='absolute -bottom-full left-40 group-hover:bottom-4 lg:group-hover:bottom-12 transition-all duration-700 z-50'>
-              <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://github.com/prakashbist28' target='_blank'> Website </a>
+              <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://chatter-pb.onrender.com' target='_blank'> Website </a>
               </div>
             </div>
           </motion.div>
@@ -117,10 +117,10 @@ const Work = () => {
                 <span className=' text-[8px] md:text-[12px] lg:text-[16px] text-white font-semibold ' >I built personal portfolio website using reactjs, nodejs and emailjs.<br/> I used Emailjs so that one can contact me through contact form.</span>
               </div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-4 lg:group-hover:bottom-12 transition-all duration-700 z-50'>
-              <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://github.com/prakashbist28' target='_blank'> Github </a>
+              <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://github.com/prakashbist28/Portfolio' target='_blank'> Github </a>
               </div>
               <div className='absolute -bottom-full left-40 group-hover:bottom-4 lg:group-hover:bottom-12 transition-all duration-700 z-50'>
-              <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://github.com/prakashbist28' target='_blank'> Website </a>
+              <a className='text-[8px] p-1 lg:text-[12px] font-tertiary border-2 border-violet-400 bg-black lg:border-r-8 lg:border-b-8 border-r-4 border-b-4 lg:p-3 hover:border-2 hover:bg-violet-800/70  hover:border-l-black hover:border-t-black/70 hover:border-l-4 hover:border-t-4 lg:hover:border-l-8 lg:hover:border-t-8 hover:border-b-1' href='https://prakashbist.onrender.com' target='_blank'> Website </a>
               </div>
             </div>
           </motion.div>

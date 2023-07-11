@@ -67,9 +67,9 @@ const Banner = () => {
             className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <button className="btn btn-lg" onClick={handleClick}>Contact Me</button>
 
-              <a href="#" className="text-gradient btn-link">
+              <a href="https://drive.google.com/file/d/19v61vHyxMQd3iSMyuZrhh1wTqjZB5kFq/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
                 {" "}
-                My Portfolio{" "}
+                My Resume{" "}
               </a>
             </motion.div>
 
@@ -79,10 +79,10 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once:false, amount:0.7}}  
             className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 ">
-              <a href="https://github.com/prakashbist28">
+              <a href="https://github.com/prakashbist28" target='_blank'>
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/prakashbist28/">
+              <a href="https://www.linkedin.com/in/prakashbist28/ " target='_blank'>
                 <FaLinkedin />
               </a>
             </motion.div>
@@ -92,8 +92,8 @@ const Banner = () => {
           variants={fadeIn('down',0.3)} 
           initial="hidden" 
           whileInView={'show'}   
-          className="hidden lg:flex flex-1 max-w-[400px] lg:max-w-[500px] ">
-            <img  src={Image} alt="image" />
+          className="hidden lg:flex flex-1 max-w-[400px] lg:max-w-[500px]">
+            <img className=" hover:scale-110"  src={Image} alt="image" />
           </motion.div>
         </div>
       </div>
