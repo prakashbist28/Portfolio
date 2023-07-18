@@ -80,10 +80,10 @@ const Banner = () => {
             viewport={{once:false, amount:0.7}}  
             className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 ">
               <a href="https://github.com/prakashbist28" target='_blank'>
-                <FaGithub />
+                <FaGithub className="text-[30px] hover:text-sky-400 hover:scale-110 " />
               </a>
               <a href="https://www.linkedin.com/in/prakashbist28/ " target='_blank'>
-                <FaLinkedin />
+                <FaLinkedin className="text-[30px] hover:text-sky-400 hover:scale-110 " />
               </a>
             </motion.div>
           </div>
