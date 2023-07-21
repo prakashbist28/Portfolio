@@ -12,7 +12,7 @@ const Header = () => {
   <header className='py-4 mb-8 '>
     <div className='container mx-auto'>
       <div className='flex justify-between items-center'>
-        <a href='#'>
+        <a href='https://prakashbist.onrender.com'>
           <img className='h-[80px]' src={Logo} alt='logo' />
         </a>
 
