@@ -61,7 +61,7 @@ and back-end development to build scalable web solutions.
             <div id="contact">
             <button className="btn btn-lg" onClick={scrollToSection}>Contact Me</button>
             </div>
-            <a href="https://drive.google.com/file/d/1weKyj-8iQxOVEqyNI1s_hxM6RL4y-YXo/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
+            <a href="https://drive.google.com/file/d/1hIU9GRK1WS5oMCx2wEbZaMBYj30ZqyjP/view?usp=drive_link" className="text-gradient btn-link" target='_blank'>
               {" "}My Resume{" "}
             </a>
             </div>
