@@ -67,7 +67,7 @@ const Banner = () => {
             className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <button className="btn btn-lg" onClick={handleClick}>Contact Me</button>
 
-              <a href="https://drive.google.com/file/d/1hIU9GRK1WS5oMCx2wEbZaMBYj30ZqyjP/view?usp=drive_link" className="text-gradient btn-link" target='_blank'>
+              <a href="https://drive.google.com/file/d/12mfeIANyQltuyoLERpYSEHF5FlZ3oPR8/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
                 {" "}
                 My Resume{" "}
               </a>
