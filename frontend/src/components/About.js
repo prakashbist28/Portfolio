@@ -5,10 +5,7 @@ import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 import aboutimg from '../assets/about.png'
 
-
-
 const About = () => {
-
 
   const[ref,inView] = useInView({
     threshold:0.5,
@@ -61,7 +58,7 @@ and back-end development to build scalable web solutions.
             <div id="contact">
             <button className="btn btn-lg" onClick={scrollToSection}>Contact Me</button>
             </div>
-            <a href="https://drive.google.com/file/d/12mfeIANyQltuyoLERpYSEHF5FlZ3oPR8/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
+            <a href="https://drive.google.com/file/d/1ydWWM7xqCsw7rJpd6ccbmm8bUjRtqKSY/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
               {" "}My Resume{" "}
             </a>
             </div>
