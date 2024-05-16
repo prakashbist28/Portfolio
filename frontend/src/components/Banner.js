@@ -67,7 +67,7 @@ const Banner = () => {
             className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <button className="btn btn-lg" onClick={handleClick}>Contact Me</button>
 
-              <a href="https://drive.google.com/file/d/1OI4r3qBfc7msp05KO48h0SSY14lkAV17/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
+              <a href="https://drive.google.com/file/d/19v61vHyxMQd3iSMyuZrhh1wTqjZB5kFq/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
                 {" "}
                 My Resume{" "}
               </a>
@@ -80,10 +80,10 @@ const Banner = () => {
             viewport={{once:false, amount:0.7}}  
             className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 ">
               <a href="https://github.com/prakashbist28" target='_blank'>
-                <FaGithub className="text-[30px] hover:text-sky-400 hover:scale-110 "/>
+                <FaGithub />
               </a>
               <a href="https://www.linkedin.com/in/prakashbist28/ " target='_blank'>
-                <FaLinkedin className="text-[30px] hover:text-sky-400 hover:scale-110 "/>
+                <FaLinkedin />
               </a>
             </motion.div>
           </div>
