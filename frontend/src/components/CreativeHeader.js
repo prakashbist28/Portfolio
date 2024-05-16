@@ -12,11 +12,11 @@ const CreativeHeader = () => {
   return (
   <header className='py-4 mb-8 '>
     <div className='container mx-auto'>
-      <div className='flex justify-between'>
+      <div className='flex justify-between items-center'>
         <a href='#'>
           <img className='h-[80px]' src={Logo} alt='logo' />
         </a>
-        <button className='btn btn-sm p-5 text-center text-[8px] ] lg:text-[15px] font-primary ' onClick={handleClick}> Back to Work </button>
+        <button className='btn btn-sm text-[10px] lg:text-[15px] font-bold font-secondary' onClick={handleClick}> Back to Work </button>
       </div>
     </div> 
   </header>
