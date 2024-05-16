@@ -45,7 +45,7 @@ and back-end development to build scalable web solutions.
             <div className='flex mb-8'>
               <div>
                 <div className='text-[40px] text-gradient mb-2 mt-2 font-extrabold' >
-                  {inView ? <CountUp start={0} end={4} duration={3} /> :
+                  {inView ? <CountUp start={0} end={5} duration={3} /> :
                    null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
@@ -58,7 +58,7 @@ and back-end development to build scalable web solutions.
             <div id="contact">
             <button className="btn btn-lg" onClick={scrollToSection}>Contact Me</button>
             </div>
-            <a href="https://drive.google.com/file/d/1OI4r3qBfc7msp05KO48h0SSY14lkAV17/view?usp=sharingg" className="text-gradient btn-link" target='_blank'>
+            <a href="https://drive.google.com/file/d/1gBW6zhaI_tc3uPyvjuAhjRGFVabzUhut/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
               {" "}My Resume{" "}
             </a>
             </div>
