@@ -33,21 +33,22 @@ const Banner = () => {
             initial="hidden" 
             whileInView={'show'} 
             viewport={{once:false, amount:0.7}}  
-            className="mb-6 text-[22px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] ">
+            className="mb-6 text-[22px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1] ">
               <span className="mx-1">I am a </span>
               <TypeAnimation
                 sequence={[
                   "Student",
                   2000,
-                  "Web developer",
+                  "frontend developer",
                   2000,
-                  "forever learner",
+                  "fullstack developer",
                   2000,
                 ]}
                 speed={50}
                 className="text-pink-400"
                 wrapper="span"
                 repeat={Infinity}
+                
               />
             </motion.div>
 
@@ -67,7 +68,7 @@ const Banner = () => {
             className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <button className="btn btn-lg" onClick={handleClick}>Contact Me</button>
 
-              <a href="https://drive.google.com/file/d/1gBW6zhaI_tc3uPyvjuAhjRGFVabzUhut/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
+              <a href="https://drive.google.com/file/d/1VtkeNaeOmQHrG1V9AURCkguhGiwjgBmJ/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
                 {" "}
                 My Resume{" "}
               </a>
@@ -80,10 +81,10 @@ const Banner = () => {
             viewport={{once:false, amount:0.7}}  
             className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 ">
               <a href="https://github.com/prakashbist28" target='_blank'>
-                <FaGithub />
+                <FaGithub className=" text-[40px] hover:text-purple-300 hover:scale-125 transition duration-300" />
               </a>
               <a href="https://www.linkedin.com/in/prakashbist28/ " target='_blank'>
-                <FaLinkedin />
+                <FaLinkedin className=" text-[40px] hover:text-blue-300 hover:scale-125 transition duration-300"/>
               </a>
             </motion.div>
           </div>
@@ -93,7 +94,7 @@ const Banner = () => {
           initial="hidden" 
           whileInView={'show'}   
           className="hidden lg:flex flex-1 max-w-[400px] lg:max-w-[500px]">
-            <img className=" hover:scale-110"  src={Image} alt="image" />
+            <img className=" hover:scale-110 object-contain rounded-full duration-500 hover:shadow-purple-400 hover:shadow-lg "  src={Image} alt="image" />
           </motion.div>
         </div>
       </div>

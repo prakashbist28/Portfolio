@@ -4,9 +4,9 @@ import Banner from '../components/Banner';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
 import About from '../components/About';
-import Services from '../components/Services';
-import Work from '../components/Work';
 import Contact from '../components/Contact';
+import Tech from '../components/tech';
+import Project from '../components/Projects';
 
 const Main = () => {
   return (
@@ -15,13 +15,13 @@ const Main = () => {
       <Banner />
       <Nav />
       <About />
+      <div className='md:h-[100px] h-[300px]'></div>
+      <Tech />
       <div className='h-[250px]'></div>
-      <Services />
+      <Project />
       <div className='h-[100px]'></div>
-      <Work />
-      <div className='h-[50px]'></div>
       <Contact />
-      <div className='h-[150px]'></div>
+      
     </div>
   );
 };

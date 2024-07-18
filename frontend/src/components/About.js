@@ -34,9 +34,9 @@ const About = () => {
           whileInView={'show'}
           className='flex-1'>
             <h2 className='h2 font-secondary text-[50px] font-bold text-pink-400'>About me</h2>
-            <h3 className='h3 mb-7 font-secondary leading-tight text-[17px] lg:text-[22px]'> My name is Prakash Bist, I am currently pursuing BE in computer science from Panjab University. </h3>
+            <h3 className='h3 mb-7 font-secondary leading-tight text-[17px] lg:text-[22px]'> My name is Prakash Bist, I graduated from the Computer Science program at UIET Hoshiarpur in 2024. </h3>
             <p className='mb-6 text-[15px] lg:text-[20px] '>
-            My career objective is to use my skills and
+            My career objective is to leverage my skills and
 knowledge to the create innovative and user-friendly web applications. I am passionate about crafting engaging user experiences and staying up to
 date with the latest web technologies and trends. My goal is to work in a collaborative environment where I can contribute my expertise in front-end
 and back-end development to build scalable web solutions.
@@ -58,7 +58,7 @@ and back-end development to build scalable web solutions.
             <div id="contact">
             <button className="btn btn-lg" onClick={scrollToSection}>Contact Me</button>
             </div>
-            <a href="https://drive.google.com/file/d/1gBW6zhaI_tc3uPyvjuAhjRGFVabzUhut/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
+            <a href="https://drive.google.com/file/d/1VtkeNaeOmQHrG1V9AURCkguhGiwjgBmJ/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
               {" "}My Resume{" "}
             </a>
             </div>

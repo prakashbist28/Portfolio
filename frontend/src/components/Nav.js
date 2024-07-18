@@ -30,7 +30,7 @@ const Nav = () => {
       </Link>
 
       <Link 
-        to='services' 
+        to='tech' 
         activeClass='active' 
         smooth={true} 
         spy={true}
