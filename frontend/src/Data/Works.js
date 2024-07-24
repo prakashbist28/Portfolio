@@ -7,7 +7,7 @@ import Img0 from '../assets/proj0.png'
 
 export const Works = [
     {id:1, img: Img0, title:' E-COMMERCE WEBSITE', desc: 'Ecommerce website is a fully responsive website which lets users to create an account and shop products. It has both user and admin panels',
-     git:'https://github.com/prakashbist28/Ecommercemern', web:'https://ecommercemern-pb.vercel.app/'},
+     git:'https://github.com/prakashbist28/Ecommercemern', web:'https://ecommercepb.vercel.app/'},
     {id:2, img: Img1, title:' CHATTER', desc: 'Chatter is a chat application where users can register,login and send messages to each other. It is implemented with help of MERN along with socket.io',
      git:'https://github.com/prakashbist28/Chatter', web:'https://chatter-pb.onrender.com'},
     {id:3, img: Img2, title:' TASKER', desc: 'Tasker is a mern stack application where one can add, update, delete and mark tasks as complete',
