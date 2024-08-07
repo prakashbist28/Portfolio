@@ -16,7 +16,7 @@ const CreativeHeader = () => {
         <a href='/'>
           <img className='h-[80px] hover:scale-125  transition duration-500' src={Logo} alt='logo' />
         </a>
-        <button className='btn btn-sm hover:bg-black text-[10px] lg:text-[15px] font-bold font-secondary' onClick={handleClick}> Back to Work </button>
+        <button className='btn btn-sm md:btn-lg mt-2 hover:bg-black text-[14px] md:text-[18px] font-bold font-secondary' onClick={handleClick}> Back to Work </button>
       </div>
     </div> 
   </header>

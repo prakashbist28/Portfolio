@@ -38,16 +38,16 @@ const Contact = () => {
   };
   
   return (
-  <section className='min-h-[80vh] lg:min-h-[75vh] flex items-center my-20' id='Contact'> 
+  <section className='min-h-[80vh] lg:min-h-[75vh] flex items-center ' id='Contact'> 
     <div className='container mx-auto items-center'>
-      <div className='flex flex-col lg:flex-row'>
+      <div className='flex flex-col lg:flex-row '>
       <div>
         <motion.div 
         variants={fadeIn('left',0.3)} 
         initial="hidden" 
         whileInView={'show'} 
         viewport={{once:false, amount:0.3}} 
-        className='flex-1 flex justify-start items-center'>
+        className='flex-1 flex justify-start items-center mr-10'>
           <div>
           <h3 className='uppercase text-gradient font-secondary mb-12 leading-none text-[45px] lg:text-[90px] '> Contact Me  </h3>
           </div>
@@ -60,10 +60,10 @@ const Contact = () => {
       whileInView={'show'} 
       viewport={{once:false, amount:0.3}} 
       ref={form} onSubmit={sendEmail}
-      className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-20 p-6 items-center font-tertiary '>
-        <input name="user_name" className='bg-transparent border-b border-purple-400 py-3 outline-none w-full placeholder:text-blue focus:border-blue-400 transition-all' type='text' placeholder='Your Name' />
-        <input name="user_email" className='bg-transparent border-b border-purple-400 py-3 outline-none w-full placeholder:text-blue focus:border-blue-400 transition-all' type='email' placeholder='Your Email' />
-        <textarea name="message" className='bg-transparent border-b border-purple-400 py-3 outline-none w-full placeholder:text-blue focus:border-blue-400 transition-all resize-none mb-12' placeholder='Your Message'></textarea>
+      className='flex-1 border border-teal-300 rounded-2xl flex flex-col gap-y-6 pb-20 p-6 items-center font-tertiary hover:border-teal-400 hover:shadow-xl hover:shadow-teal-400  '>
+        <input name="user_name" className='bg-transparent border-b p-2 border-teal-300 py-3 outline-none w-full placeholder:text-blue focus:shadow-lg focus:shadow-teal-300/60 transition-all' type='text' placeholder='Your Name' />
+        <input name="user_email" className='bg-transparent border-b p-2 border-teal-300 py-3 outline-none w-full placeholder:text-blue focus:shadow-lg focus:shadow-teal-300/60 transition-all' type='email' placeholder='Your Email' />
+        <textarea name="message" className='bg-transparent border-b p-2 border-teal-300 py-3 outline-none w-full placeholder:text-blue focus:shadow-lg focus:shadow-teal-300/60 transition-all resize-none mb-12' placeholder='Your Message'></textarea>
         <button type="submit" value="Send" className='btn btn-lg'>Send message</button>
       </motion.form>
 

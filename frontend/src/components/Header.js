@@ -16,7 +16,7 @@ const Header = () => {
           <img className='h-[80px] hover:scale-125  transition duration-500 ' src={Logo} alt='logo' />
         </a>
 
-        <button className='btn btn-sm text-[10px] lg:text-[15px] font-bold font-secondary ' onClick={handleClick}> Discover More</button>
+        <button className='btn btn-sm md:btn-lg text-[14px] md:text-[18px] mt-2 font-bold font-secondary tracking-wide shadow-lg hover:shadow-teal-500' onClick={handleClick}> Discover More</button>
       </div>
     </div> 
   </header>
