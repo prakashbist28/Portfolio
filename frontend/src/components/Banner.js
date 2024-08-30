@@ -72,10 +72,10 @@ const Banner = () => {
               <button className="btn btn-lg relative" onClick={handleClick}>Contact Me</button>
               </div>
 
-              <a href="https://drive.google.com/file/d/1qxHRCPX8IvdN-bNGqsU7TDaiPEa_43g0/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
+              <a href="https://drive.google.com/file/d/1BoKGVghrdBpumfaTz5nPnQhv2zu37-LY/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
                 {" "}
                 My Resume{" "}
-              </a>
+              </a> 
             </motion.div>
 
             <motion.div

@@ -32,7 +32,7 @@ import planets from'../boringassets/planets.png';
 export const Artimgs = [
     {id:1, img: berserk, title: 'Betrayal Sacrifice Blood'},
     {id:2, img: death, title: 'Play of Death'},
-    {id:3, img: tornado, title: 'Chatoic Dreams'},
+    {id:3, img: tornado, title: 'Chaotic Dreams'},
     {id:4, img: road, title: 'A pleasant morning'},
     {id:5, img: bwsamurai, title: 'Lone Samurai'},
     {id:6, img: window, title: 'Cat, Rain and Work'},

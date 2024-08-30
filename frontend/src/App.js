@@ -6,7 +6,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 const App = () => {
   return (
-    <div className='bg-black bg-no-repeat bg-cover overflow-hidden'>
+    <div className='bg-black bg-no-repeat bg-cover overflow-hidden '>
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Main />}/>
