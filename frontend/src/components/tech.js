@@ -41,7 +41,7 @@ const Tech = () => {
                     alt={`Tech image ${item.id}`}
                   />
 
-                 <h1 className="flex text-[8px] md:text-[12px] lg:text-[16px] pt-4 font-medium justify-center hover:text-teal-300 hover:font-medium  hover:scale-110 transition-all duration-1000">{item.title}</h1>       
+                 <h1 className="flex text-[8px] md:text-[12px] lg:text-[20px] pt-4 font-medium justify-center hover:text-teal-300 hover:font-medium  hover:scale-110 transition-all duration-1000">{item.title}</h1>       
               </a>
               </div>
             </div>

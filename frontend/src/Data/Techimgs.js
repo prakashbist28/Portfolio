@@ -4,7 +4,7 @@ import mongoimg from "../assets/mongodb.png";
 import expressimg from "../assets/expressjs.png";
 import tailwindimg from "../assets/tailwind.png";
 import nodeimg from "../assets/nodejs.png";
-import cimg from "../assets/cimg.png";
+import mysql from "../assets/mysql.png";
 import htmlimg from "../assets/html.png";
 import reduximg from "../assets/redux.png";
 import cssimg from "../assets/css.png";
@@ -46,6 +46,6 @@ export   const Techimgs = [
       id: 11, name: cppimg, title: "CPP", link: "https://cplusplus.com/doc/tutorial/",
     },
     {
-      id: 12, name: cimg, title: "C", link: "https://www.cprogramming.com/",
+      id: 12, name: mysql, title: "My SQL", link: "https://dev.mysql.com/doc/",
     },
   ];
