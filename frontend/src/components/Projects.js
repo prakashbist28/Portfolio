@@ -5,7 +5,6 @@ import { Works } from '../Data/Works';
 const Project = () => { 
 
 
-
   return (
   <section className='min-h-[100vh] lg:min-h-[90vh] flex items-center' id='work'>
     <div className='container mx-auto'>
