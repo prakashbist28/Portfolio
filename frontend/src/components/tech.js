@@ -18,7 +18,7 @@ const Tech = () => {
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
       >
-        <h1 className=" text-center font-primary text-teal-400 font-bold text-[24px] lg:text-[55px]  ">
+        <h1 className=" text-center font-tertiary text-teal-400 font-bold text-[24px] lg:text-[55px]  ">
           {" "}
           Technologies{" "}
         </h1>

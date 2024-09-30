@@ -41,12 +41,11 @@ const About = () => {
             <h2 className="h2 font-secondary text-[50px] font-bold text-teal-400 hover:text-gray-300 transition duration-500">
               About me
             </h2>
-            <h3 className="h3 mb-7 font-secondary leading-tight text-[17px] lg:text-[22px]">
+            <h3 className="h3 mb-7 flex flex-col font-secondary leading-tight text-[17px] lg:text-[22px]">
               {" "}
-              My name is Prakash Bist, I graduated from the Computer Science
-              program at UIET Hoshiarpur in 2024.{" "}
+              My name is Prakash Bist, <span>I am a recent computer science graduate.</span>{" "}
             </h3>
-            <p className="mb-6 text-[15px] lg:text-[20px] ">
+            <p className="mb-6 font-secondary text-[15px] lg:text-[18px] ">
               My career objective is to leverage my skills and knowledge to the
               create innovative and user-friendly web applications. I am
               passionate about crafting engaging user experiences and staying up
@@ -63,7 +62,7 @@ const About = () => {
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects <br />
-                  Completed
+                  Built
                 </div>
               </div>
             </div>
