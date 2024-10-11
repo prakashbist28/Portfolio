@@ -80,7 +80,7 @@ const About = () => {
               </div>
 
               <a
-                href="https://drive.google.com/file/d/1NdEi0LIRlH9i2pliqf4LhiSnNQoNrsBR/view?usp=sharing"
+                href="https://drive.google.com/file/d/1NQDWDb4ogwnDPLspfvLcQQCUFbUAApef/view?usp=sharing"
                 className="text-gradient btn-link"
                 target="_blank"
               >
