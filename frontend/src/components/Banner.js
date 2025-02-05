@@ -72,7 +72,7 @@ const Banner = () => {
               <button className="btn btn-lg relative" onClick={handleClick}>Contact Me</button>
               </div>
 
-              <a href="https://drive.google.com/file/d/1NQDWDb4ogwnDPLspfvLcQQCUFbUAApef/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
+              <a href="https://drive.google.com/file/d/1osDwEoXxbcxMqTmd9VenEWH0pT9smeq2/view?usp=sharing" className="text-gradient btn-link" target='_blank'>
                 {" "}
                 My Resume{" "}
               </a> 
