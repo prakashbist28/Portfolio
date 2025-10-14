@@ -1,33 +1,33 @@
-import berserk from '../boringassets/berserk.png';
-import blossom from '../boringassets/blossom.png';
-import bridge from '../boringassets/bridge.png';
-import bwsamurai from '../boringassets/bwsamurai.png';
-import cat from '../boringassets/cat.png';
-import city from '../boringassets/city.png';
-import cityblue from '../boringassets/cityblue.png';
-import citygirl from '../boringassets/citygirlpunk.png';
-import desert from '../boringassets/desert.png';
-import docs from '../boringassets/docs.png';
-import dragon from '../boringassets/dragon.png';
-import guts from '../boringassets/guts.png';
-import wild from '../boringassets/intowild.png';
-import wood from '../boringassets/intowoods.png';
-import mount from '../boringassets/notherenlights.png';
-import death from '../boringassets/playofdeath.png';
-import rsamurai from '../boringassets/redsamurai.png'
-import skull from '../boringassets/skulll.png';
-import wait from '../boringassets/waitingreflecton.png';
-import whale from '../boringassets/whale.png';
-import window from '../boringassets/windowdrops.png'
-import wolves from '../boringassets/wolves.png';
-import road from '../boringassets/road.png';
-import sam from '../boringassets/samuraifirst.png';
-import tornado from '../boringassets/tornado.png';
-import train from'../boringassets/train.png';
-import heatb from'../boringassets/heatblast.png';
-import butter from'../boringassets/butterfly.png';
-import clouds from'../boringassets/clouds.png';
-import planets from'../boringassets/planets.png';
+import berserk from '../artassets/berserk.webp';
+import blossom from '../artassets/blossom.webp';
+import bridge from '../artassets/bridge.webp';
+import bwsamurai from '../artassets/bwsamurai.webp';
+import cat from '../artassets/cat.webp';
+import city from '../artassets/city.webp';
+import cityblue from '../artassets/cityblue.webp';
+import citygirl from '../artassets/citygirlpunk.webp';
+import desert from '../artassets/desert.webp';
+import docs from '../artassets/docs.webp';
+import dragon from '../artassets/dragon.webp';
+import guts from '../artassets/guts.webp';
+import wild from '../artassets/intowild.webp';
+import wood from '../artassets/intowoods.webp';
+import mount from '../artassets/notherenlights.webp';
+import death from '../artassets/playofdeath.webp';
+import rsamurai from '../artassets/redsamurai.webp'
+import skull from '../artassets/skulll.webp';
+import wait from '../artassets/waitingreflecton.webp';
+import whale from '../artassets/whale.webp';
+import window from '../artassets/windowdrops.webp'
+import wolves from '../artassets/wolves.webp';
+import road from '../artassets/road.webp';
+import sam from '../artassets/samuraifirst.webp';
+import tornado from '../artassets/tornado.webp';
+import train from'../artassets/train.webp';
+import heatb from'../artassets/heatblast.webp';
+import butter from'../artassets/butterfly.webp';
+import clouds from'../artassets/clouds.webp';
+import planets from'../artassets/planets.webp';
 
 export const Artimgs = [
     {id:1, img: berserk, title: 'Betrayal Sacrifice Blood'},

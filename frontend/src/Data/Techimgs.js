@@ -1,51 +1,20 @@
-import reactimg from "../assets/reacticon.png";
-import cppimg from "../assets/c++.png";
-import mongoimg from "../assets/mongodb.png";
-import expressimg from "../assets/expressjs.png";
-import tailwindimg from "../assets/tailwind.png";
-import nodeimg from "../assets/nodejs.png";
-import mysql from "../assets/mysql.png";
-import htmlimg from "../assets/html.png";
-import reduximg from "../assets/redux.png";
-import cssimg from "../assets/css.png";
-import jsimg from "../assets/javascript.png";
-import tsimg from "../assets/typescript.png";
 
-export   const Techimgs = [
-    {
-      id: 1, name: reactimg, title: "React", link: "https://react.dev/",
-    },
-    {
-      id: 2, name: nodeimg, title: "Nodejs", link: "https://nodejs.org/en",
-    },
-    {
-      id: 3, name: expressimg, title: "Express", link: "https://expressjs.com/",
-    },
-    {
-      id: 4, name: mongoimg, title: "MongoDb", link: "https://www.mongodb.com/",
-    },
-    {
-      id: 5, name: reduximg, title: "Redux", link: "https://react-redux.js.org/introduction/getting-started",
-    },
-    {
-      id: 6, name: tailwindimg, title: "Tailwindcss", link: "https://www.tailwindcss.cn/",
-    },
-    {
-      id: 7, name: cssimg, title: "CSS", link: "https://www.w3schools.com/cssref/index.php",
-    },
-    {
-      id: 8, name: htmlimg, title: "HTML", link: "https://html.com/",
-    },
-    {
-      id: 9, name: jsimg, title: "Javascript", link: "https://javascript.info/",
-    },
-    {
-      id: 10, name: tsimg, title: "Typescript", link: "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
-    },
-    {
-      id: 11, name: cppimg, title: "CPP", link: "https://cplusplus.com/doc/tutorial/",
-    },
-    {
-      id: 12, name: mysql, title: "My SQL", link: "https://dev.mysql.com/doc/",
-    },
-  ];
+import { FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3Alt, FaDatabase } from "react-icons/fa";
+import { SiMongodb, SiRedux, SiTailwindcss, SiTypescript, SiMysql, SiCplusplus, SiExpress } from "react-icons/si";
+
+
+export const Techimgs = [
+  { id: 1, icon: FaReact, title: "React", link: "https://react.dev/", description: "UI library" },
+  { id: 2, icon: SiRedux, title: "Redux", link: "https://react-redux.js.org/", description: "State management" },
+  { id: 3, icon: FaNodeJs, title: "Node.js", link: "https://nodejs.org/en", description: "Server runtime" },
+  { id: 4, icon: SiExpress, title: "Express", link: "https://expressjs.com/", description: "Backend framework" },
+  { id: 5, icon: SiMongodb, title: "MongoDB", link: "https://www.mongodb.com/", description: "NoSQL database" },
+  { id: 6, icon: SiMysql, title: "MySQL", link: "https://dev.mysql.com/doc/", description: "Relational database" },
+  { id: 7, icon: SiTailwindcss, title: "TailwindCSS", link: "https://tailwindcss.com/", description: "Utility CSS" },
+  { id: 8, icon: FaCss3Alt, title: "CSS", link: "https://www.w3schools.com/cssref/", description: "Styling" },
+  { id: 9, icon: FaHtml5, title: "HTML", link: "https://html.com/", description: "Web structure" },
+  { id: 10, icon: FaJs, title: "JavaScript", link: "https://javascript.info/", description: "Web scripting" },
+  { id: 11, icon: SiTypescript, title: "TypeScript", link: "https://www.typescriptlang.org/", description: "Typed JS" },
+  { id: 12, icon: SiCplusplus, title: "C++", link: "https://cplusplus.com/doc/tutorial/", description: "Systems programming" },
+
+];

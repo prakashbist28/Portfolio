@@ -2,10 +2,25 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Orbitron',
-      secondary: 'Rajdhani',
-      tertiary: 'Aldrich',
-      quad : 'Kaushan Script',
+      primary: 'Bricolage Grotesque',
+      secondary: 'Hedvig Letters Serif',
+      third: 'Instrument Serif',
+      quad : 'Inter',
+      fifth : 'Space Mono',
+      sixth : 'Tulpen One',
+      seven : 'Silkscreen',
+      eight : 'Outfit',
+      nine : 'Maven Pro',
+      ten:'Montserrat',
+      eleven:'Kristi',
+      twelve:'Macondo',
+      thirteen:'Teko',
+      fourteen:'New Amsterdam',
+      fifteen:'Acme',
+      sixteen:'Carter One', 
+      seventeen:'Roboto', 
+      eighteen:'Satisfy', 
+      nineteen:'Playfair', 
     },
     container: {
       padding: {
@@ -24,7 +39,7 @@ module.exports = {
         accent: '#B809C3',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
+
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
       },

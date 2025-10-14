@@ -9,43 +9,44 @@ const Tech = () => {
 
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[78vh] items-center flex-1 justify-center "
+      className="min-h-[85vh] lg:min-h-[78vh] items-center flex-1 justify-center m-10 md:m-20 lg:m-40 "
       id="tech"
     >
       <motion.div
-        variants={fadeIn("down", 0.4)}
+        variants={fadeIn("right", 0.4)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: false, amount: 0.3 }}
       >
-        <h1 className=" text-center font-tertiary text-teal-400 font-bold text-[24px] lg:text-[55px]  ">
+        <h1 className=" text-center font-fifth text-teal-400 font-bold text-[35px] lg:text-[50px]  ">
           {" "}
-          Technologies{" "}
+          Tech Stack{" "}
         </h1>
       </motion.div>
 
       <motion.div
-        variants={fadeIn("up", 0.4)}
+        variants={fadeIn("left", 0.4)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.3 }}
-        className="pt-16 flex flex-wrap  justify-center items-center mx-auto"
+        className="pt-4 md:pt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 "
       >
-        {Techimgs.map((item) => (
-          <div key={item.id} className=" group pt-8 w-1/3 md:w-1/4 ">
-            <div className=" flex flex-col items-center ">
+        {Techimgs.map((item) => {
+          const Icon = item.icon;
+          return(
+          <div key={item.id} className=" group border hover:bg-teal-900/30 transition duration-300 hover:scale-105 rounded-lg p-4 ">
+            <div className="flex md:flex-col items-center justify-between px-6 md:px-0">
               <a href={item.link} target="_blank" rel="none">
-                  <img
-                    className="mx-auto h-auto w-[70px]  lg:w-[150px] transition duration-500 rounded-full hover:scale-110 hover:shadow-xl hover:shadow-teal-300"
-                    src={item.name}
-                    alt={`Tech image ${item.id}`}
-                  />
-
-                 <h1 className="flex text-[8px] md:text-[12px] lg:text-[20px] pt-4 font-medium justify-center hover:text-teal-300 hover:font-medium  hover:scale-110 transition-all duration-1000">{item.title}</h1>       
+              <Icon className="text-4xl text-teal-400" />  
               </a>
+              <div className="flex flex-col items-end md:items-center">
+              <h1 className=" text-[8px] md:text-[12px] lg:text-[16px] font-fifth  font-semibold justify-center hover:text-teal-300 hover:font-medium  hover:scale-110 transition-all duration-1000">{item.title}</h1>       
+              <h1 className=" text-[8px] md:text-[12px] lg:text-[16px] font-quad font-light lowercase justify-center overflow-hidden">{item.description}</h1>    
+              </div>
               </div>
             </div>
-        ))}
+        )}
+        )}
       </motion.div>
     </section>
   );

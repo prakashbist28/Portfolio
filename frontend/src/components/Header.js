@@ -1,26 +1,40 @@
 import React from 'react';
-import Logo from '../assets/portlogo.png'
-import {useNavigate} from 'react-router-dom'
+import Logo from '../assets/portlogo.png';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const Header = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+  const location = useLocation();
 
-  const handleClick =()=>{
-    navigate('/creative')
-  }
+  const isCreativePage = location.pathname === '/creative';
+
+  const handleClick = () => {
+    if (isCreativePage) {
+      navigate('/');
+    } else {
+      navigate('/creative');
+    }
+  };
+
   return (
-  <header className='py-4 mb-8 '>
-    <div className='container mx-auto'>
-      <div className='flex justify-between'>
-        <a href='/'>
-          <img className='h-[80px] hover:scale-125  transition duration-500 ' src={Logo} alt='logo' />
-        </a>
+    <header className='py-4 '>
+      <div className='container mx-auto'>
+        <div className='flex items-center justify-between'>
+          <a href='/'>
+            <img className='h-[60px] md:h-[80px] hover:scale-125 transition duration-500' src={Logo} alt='logo' />
+          </a>
 
-        <button className='btn btn-sm md:btn-lg text-[14px] md:text-[18px] mt-2 font-bold font-secondary tracking-wide shadow-lg hover:shadow-teal-500' onClick={handleClick}> Discover More</button>
+          <button
+            className='bg-gradient-to-tr rounded-3xl [text-shadow:1px_2px_3px_#000000] from-teal-500 via-teal-800 to-teal-950 px-4 py-2 hover:px-6 transition-all duration-300 text-[14px] md:text-[18px] font-bold font-primary'
+            onClick={handleClick}
+          >
+            {isCreativePage ? 'Back to Work' : 'Beyond Code'}
+          </button>
+        </div>
       </div>
-    </div> 
-  </header>
-  )
+    </header>
+  );
 };
 
 export default Header;
+

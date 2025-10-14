@@ -1,16 +1,19 @@
+
+
 import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import aboutimg from "../assets/about.png";
+import { FiExternalLink } from "react-icons/fi";
 
 const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
   });
 
-  const scrollToSection = () => {
+  const handleClick = () => {
     const Contact = document.getElementById("Contact");
     Contact.scrollIntoView({ behavior: "smooth" });
   };
@@ -67,26 +70,15 @@ const About = () => {
               </div>
             </div>
             <div className="flex  gap-x-8 items-center mb-12 mx-auto lg:mx-0">
-              <div className=" relative ">
-                <div className=" absolute bg-teal-300 blur-md rounded-full inset-0"></div>
-                <div className="z-20" id="contact">
-                  <button
-                    className="btn btn-lg relative"
-                    onClick={scrollToSection}
-                  >
-                    Contact Me
-                  </button>
-                </div>
-              </div>
+                         
+            <button className="border rounded-full px-3 hover:px-6 py-1 hover:bg-gradient-to-tr from-teal-600 duration-300" onClick={handleClick}>Contact Me</button>
+             
 
-              <a
-                href="https://drive.google.com/file/d/1osDwEoXxbcxMqTmd9VenEWH0pT9smeq2/view?usp=sharing"
-                className="text-gradient btn-link"
-                target="_blank"
-              >
-                {" "}
-                My Resume{" "}
-              </a>
+             <a href="https://drive.google.com/file/d/1osDwEoXxbcxMqTmd9VenEWH0pT9smeq2/view?usp=sharing" 
+             className="border flex items-center gap-2 rounded-full px-3 hover:px-6 py-1 hover:bg-gradient-to-tr from-teal-600 hover: duration-300" target='_blank'>
+               {" "}
+               My Resume{" "} <FiExternalLink />
+             </a>
             </div>
           </motion.div>
         </div>

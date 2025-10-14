@@ -7937,6 +7937,11 @@ react-scroll@^1.8.9:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
+react-spinners@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.npmjs.org/react-spinners/-/react-spinners-0.17.0.tgz"
+  integrity sha512-L/8HTylaBmIWwQzIjMq+0vyaRXuoAevzWoD35wKpNTxxtYXWZp+xtgkfD7Y4WItuX0YvdxMPU79+7VhhmbmuTQ==
+
 react-type-animation@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/react-type-animation/-/react-type-animation-2.1.2.tgz"
