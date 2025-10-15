@@ -34,12 +34,12 @@ export const Works = [
     id: 2,
     img: Img1,
     title: 'CHATTER',
-    desc: 'Chatter is a real-time messaging web application with registration, signin, and emoji support',
+    desc: 'Chatter is a real-time messaging web application with user authentication and online status features.',
     points: [
       'Real-time Messaging using Socket.io',
+      'Implemented Online/Offline User Status and unread Message Indicators',
       'Uses bcrypt for user registration and login security',
       'Fetches random user avatars using an API',
-      'Clean UI with Smooth Message Rendering',
     ],
     tech: [
       'React.js',
@@ -49,6 +49,7 @@ export const Works = [
       'MongoDB',
       'Bcrypt',
       'Socket.io',
+      'Context API'
     ],
     git: 'https://github.com/prakashbist28/Chatter',
     web: 'https://chatter-pb.onrender.com',
