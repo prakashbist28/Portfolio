@@ -30,7 +30,7 @@ const Banner = () => {
               <img
                 className=" group-hover:scale-110  md:blur-[5px] hover:blur-0  object-contain rounded-full duration-500 "
                 src={Image}
-                alt="image"
+                alt="images"
               />
             </motion.div>
           </div>
@@ -77,9 +77,10 @@ const Banner = () => {
                 </button>
 
                 <a
-                  href="https://drive.google.com/file/d/1osDwEoXxbcxMqTmd9VenEWH0pT9smeq2/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1xK9eibSdc0Z85ZL69RaEXhQxa2iHLO3N/view?usp=sharing"
                   className="border-2 border-teal-500  text-teal-500 hover:text-white flex items-center gap-2 rounded-full px-3 hover:px-6 py-1 hover:bg-gradient-to-tr from-teal-600 hover: duration-300"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   {" "}
                   My Resume <FiExternalLink />
@@ -87,18 +88,20 @@ const Banner = () => {
               </div>
 
               <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 ">
-                <a href="https://github.com/prakashbist28" target="_blank">
+                <a href="https://github.com/prakashbist28" target="_blank"  rel="noreferrer">
                   <FaGithub className=" text-[24px] md:text-[40px] hover:text-teal-300 hover:scale-125 transition duration-300" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/prakashbist28/ "
                   target="_blank"
+                   rel="noreferrer"
                 >
                   <FaLinkedin className=" text-[24px] md:text-[40px] hover:text-teal-300 hover:scale-125 transition duration-300" />
                 </a>
                 <a
                   href="mailto:prakashcena540@gmail.com"
                   target="_blank"
+                   rel="noreferrer"
                 >
                   <FaEnvelope className=" scale-y-110 text-[24px] md:text-[40px] hover:text-teal-300 hover:scale-125 transition duration-300" />
                 </a>
